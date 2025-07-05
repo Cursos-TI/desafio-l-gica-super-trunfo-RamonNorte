@@ -4,8 +4,6 @@
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
-
-int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
@@ -101,7 +99,20 @@ printf("Comparação de cartas\n");
     printf("Carta 1 Venceu!(1)\n");
     if(super_poder>super_poder2);
     printf("Carta 1 Venceu!(1)\n");
-    return 0;
+printf("Escolha os atributos a serem comparados:");scanf("%d\n",& opcao);
+switch(opcao){
+case 1
+    printf("Carta 1 Venceu!(1)\n");
+    break;
+case 2
+    printf("Carta 1 Venceu!(1)\n");
+    break;
+
+    default(
+
+    printf("Opcao Invalida\n");
+    )
+}
 
     return 0;
 }

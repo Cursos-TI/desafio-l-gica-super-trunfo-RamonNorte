@@ -99,20 +99,37 @@ printf("Comparação de cartas\n");
     printf("Carta 1 Venceu!(1)\n");
     if(super_poder>super_poder2);
     printf("Carta 1 Venceu!(1)\n");
-//printf("Escolha os atributos a serem comparados:");scanf("%d\n",&opcao);
-//switch(opcao){
-//case 1
-    //printf("Carta 1 Venceu!(1)\n");
-   // break;
-//case 2
-   // printf("Carta 1 Venceu!(1)\n");
-   // break;
+int opcao;
+printf("1- Populacao\n");
+printf("2- Area\n");
+printf("Escolha os atributos a serem comparados:");
+scanf("%d",&opcao);
+switch(opcao){
+case 1:
+printf("Cidade: %s\n", cidade); 
+printf("População: %d\n", Populacao);
+printf("Cidade: %s\n", cidade2); 
+printf("População: %d\n", Populacao2);
+if(Populacao>Populacao2);
+printf("Populacao:Carta 1 Venceu!(1)\n");
+if(Populacao=Populacao2);
+printf("Empate!\n");
+break;
+case 2:
+printf("Cidade: %s\n", cidade);  
+printf("Área: %.2f km²\n", Area);
+printf("Cidade: %s\n", cidade2); 
+printf("Área: %.2f km²\n", Area2); 
+if(Area>Area2);
+printf("Area:Carta 1 Venceu!(1)\n");
+if(Area=Area2);
+printf("Empate!\n");
+break;
 
-    //default(
-
-   // printf("Opcao Invalida\n");
-    )
-
+default:
+printf("Opcao Invalida\n");
+    
+}
 
     return 0;
 }

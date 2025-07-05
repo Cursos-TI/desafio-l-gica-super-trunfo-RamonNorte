@@ -99,20 +99,20 @@ printf("Comparação de cartas\n");
     printf("Carta 1 Venceu!(1)\n");
     if(super_poder>super_poder2);
     printf("Carta 1 Venceu!(1)\n");
-printf("Escolha os atributos a serem comparados:");scanf("%d\n",& opcao);
-switch(opcao){
-case 1
-    printf("Carta 1 Venceu!(1)\n");
-    break;
-case 2
-    printf("Carta 1 Venceu!(1)\n");
-    break;
+//printf("Escolha os atributos a serem comparados:");scanf("%d\n",&opcao);
+//switch(opcao){
+//case 1
+    //printf("Carta 1 Venceu!(1)\n");
+   // break;
+//case 2
+   // printf("Carta 1 Venceu!(1)\n");
+   // break;
 
-    default(
+    //default(
 
-    printf("Opcao Invalida\n");
+   // printf("Opcao Invalida\n");
     )
-}
+
 
     return 0;
 }

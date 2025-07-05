@@ -86,22 +86,24 @@ printf("PIB per Capita:%.2f reais\n", PIB_per_Capita2);
 printf("Super Poder: %.2f\n", super_poder2);
 printf("Comparação de cartas\n");
     if(Populacao>Populacao2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("Populacao:Carta 1 Venceu!(1)\n");
     if(Area>Area2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("Area:Carta 1 Venceu!(1)\n");
     if(PIB>PIB2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("PIB:Carta 1 Venceu!(1)\n");
     if(Pontos_Turisticos>Pontos_Turisticos2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
     if(Densidade_Populacional<Densidade_Populacional2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("Densidade Populacional:Carta 1 Venceu!(1)\n");
     if(PIB_per_Capita>PIB_per_Capita2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("PIB Per Capita:Carta 1 Venceu!(1)\n");
     if(super_poder>super_poder2);
-    printf("Carta 1 Venceu!(1)\n");
+    printf("Super Poder:Carta 1 Venceu!(1)\n");
 int opcao;
 printf("1- Populacao\n");
 printf("2- Area\n");
+printf("3- PIB\n");
+printf("4- Pontos Turisticos\n");
 printf("Escolha os atributos a serem comparados:");
 scanf("%d",&opcao);
 switch(opcao){
@@ -125,8 +127,28 @@ printf("Area:Carta 1 Venceu!(1)\n");
 if(Area=Area2);
 printf("Empate!\n");
 break;
-
+case 3:
+printf("Cidade: %s\n", cidade);  
+printf("PIB: %.2f bilhões\n", PIB);
+printf("Cidade: %s\n", cidade2); 
+printf("PIB: %.2f bilhões\n", PIB2);
+if(PIB>PIB2);
+printf("PIB:Carta 1 Venceu!(1)\n");
+if(PIB=PIB2);
+printf("Empate!\n");
+break;
+case 4:
+printf("Cidade: %s\n", cidade);  
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
+printf("Cidade: %s\n", cidade2);  
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
+if(Pontos_Turisticos>Pontos_Turisticos2);
+printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
+if(Pontos_Turisticos=Pontos_Turisticos2);
+printf("Empate!\n");
+break;
 default:
+
 printf("Opcao Invalida\n");
     
 }

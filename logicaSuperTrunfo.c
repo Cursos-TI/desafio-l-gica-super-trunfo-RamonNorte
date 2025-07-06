@@ -112,10 +112,11 @@ printf("Cidade: %s\n", cidade);
 printf("População: %d\n", Populacao);
 printf("Cidade: %s\n", cidade2); 
 printf("População: %d\n", Populacao2);
+printf("População:");
 if(Populacao>Populacao2)
-printf("Populacao:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Populacao<Populacao2)
-printf("Populacao:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 2:
@@ -123,10 +124,11 @@ printf("Cidade: %s\n", cidade);
 printf("Área: %.2f km²\n", Area);
 printf("Cidade: %s\n", cidade2); 
 printf("Área: %.2f km²\n", Area2); 
+printf("Área:"); 
 if(Area>Area2)
-printf("Area:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Area<Area2)
-printf("Area:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 3:
@@ -134,10 +136,11 @@ printf("Cidade: %s\n", cidade);
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Cidade: %s\n", cidade2); 
 printf("PIB: %.2f bilhões\n", PIB2);
+printf("PIB:");
 if(PIB>PIB2)
-printf("PIB:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(PIB<PIB2)
-printf("PIB:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 4:
@@ -145,10 +148,11 @@ printf("Cidade: %s\n", cidade);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 printf("Cidade: %s\n", cidade2);  
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
+printf("Pontos Turísticos:");
 if(Pontos_Turisticos>Pontos_Turisticos2)
-printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Pontos_Turisticos<Pontos_Turisticos2)
-printf("Pontos Turísticos:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 
@@ -170,10 +174,11 @@ printf("Cidade: %s\n", cidade);
 printf("População: %d\n", Populacao);
 printf("Cidade: %s\n", cidade2); 
 printf("População: %d\n", Populacao2);
+printf("População:");
 if(Populacao>Populacao2)
-printf("Populacao:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Populacao<Populacao2)
-printf("Populacao:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 2:
@@ -181,10 +186,11 @@ printf("Cidade: %s\n", cidade);
 printf("Área: %.2f km²\n", Area);
 printf("Cidade: %s\n", cidade2); 
 printf("Área: %.2f km²\n", Area2); 
+printf("Área:"); 
 if(Area>Area2)
-printf("Area:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Area<Area2)
-printf("Area:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 3:
@@ -192,10 +198,11 @@ printf("Cidade: %s\n", cidade);
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Cidade: %s\n", cidade2); 
 printf("PIB: %.2f bilhões\n", PIB2);
+printf("PIB:");
 if(PIB>PIB2)
-printf("PIB:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(PIB<PIB2)
-printf("PIB:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 case 4:
@@ -203,10 +210,11 @@ printf("Cidade: %s\n", cidade);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 printf("Cidade: %s\n", cidade2);  
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
+printf("Pontos Turísticos:");
 if(Pontos_Turisticos>Pontos_Turisticos2)
-printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
+printf("Carta 1 Venceu!(1)\n");
 else if(Pontos_Turisticos<Pontos_Turisticos2)
-printf("Pontos Turísticos:Carta 2 Venceu!(2)\n");
+printf("Carta 2 Venceu!(2)\n");
 else printf("Empate!\n");
 break;
 

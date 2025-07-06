@@ -100,53 +100,116 @@ printf("Comparação de cartas\n");
     if(super_poder>super_poder2);
     printf("Super Poder:Carta 1 Venceu!(1)\n");
 int opcao;
+printf("Escolha os atributos a serem comparados:");
+scanf("%d",&opcao);
 printf("1- Populacao\n");
 printf("2- Area\n");
 printf("3- PIB\n");
 printf("4- Pontos Turisticos\n");
-printf("Escolha os atributos a serem comparados:");
-scanf("%d",&opcao);
 switch(opcao){
 case 1:
 printf("Cidade: %s\n", cidade); 
 printf("População: %d\n", Populacao);
 printf("Cidade: %s\n", cidade2); 
 printf("População: %d\n", Populacao2);
-if(Populacao>Populacao2);
+if(Populacao>Populacao2)
 printf("Populacao:Carta 1 Venceu!(1)\n");
-if(Populacao=Populacao2);
-printf("Empate!\n");
+else if(Populacao<Populacao2)
+printf("Populacao:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
 break;
 case 2:
 printf("Cidade: %s\n", cidade);  
 printf("Área: %.2f km²\n", Area);
 printf("Cidade: %s\n", cidade2); 
 printf("Área: %.2f km²\n", Area2); 
-if(Area>Area2);
+if(Area>Area2)
 printf("Area:Carta 1 Venceu!(1)\n");
-if(Area=Area2);
-printf("Empate!\n");
+else if(Area<Area2)
+printf("Area:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
 break;
 case 3:
 printf("Cidade: %s\n", cidade);  
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Cidade: %s\n", cidade2); 
 printf("PIB: %.2f bilhões\n", PIB2);
-if(PIB>PIB2);
+if(PIB>PIB2)
 printf("PIB:Carta 1 Venceu!(1)\n");
-if(PIB=PIB2);
-printf("Empate!\n");
+else if(PIB<PIB2)
+printf("PIB:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
 break;
 case 4:
 printf("Cidade: %s\n", cidade);  
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 printf("Cidade: %s\n", cidade2);  
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
-if(Pontos_Turisticos>Pontos_Turisticos2);
+if(Pontos_Turisticos>Pontos_Turisticos2)
 printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
-if(Pontos_Turisticos=Pontos_Turisticos2);
-printf("Empate!\n");
+else if(Pontos_Turisticos<Pontos_Turisticos2)
+printf("Pontos Turísticos:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
 break;
+
+default:
+
+printf("Opcao Invalida\n");
+    
+}
+printf("Segunda Rodada!\n");
+printf("Escolha os atributos a serem comparados:");
+scanf("%d",&opcao);
+printf("1- Populacao\n");
+printf("2- Area\n");
+printf("3- PIB\n");
+printf("4- Pontos Turisticos\n");
+switch(opcao){
+case 1:
+printf("Cidade: %s\n", cidade); 
+printf("População: %d\n", Populacao);
+printf("Cidade: %s\n", cidade2); 
+printf("População: %d\n", Populacao2);
+if(Populacao>Populacao2)
+printf("Populacao:Carta 1 Venceu!(1)\n");
+else if(Populacao<Populacao2)
+printf("Populacao:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
+break;
+case 2:
+printf("Cidade: %s\n", cidade);  
+printf("Área: %.2f km²\n", Area);
+printf("Cidade: %s\n", cidade2); 
+printf("Área: %.2f km²\n", Area2); 
+if(Area>Area2)
+printf("Area:Carta 1 Venceu!(1)\n");
+else if(Area<Area2)
+printf("Area:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
+break;
+case 3:
+printf("Cidade: %s\n", cidade);  
+printf("PIB: %.2f bilhões\n", PIB);
+printf("Cidade: %s\n", cidade2); 
+printf("PIB: %.2f bilhões\n", PIB2);
+if(PIB>PIB2)
+printf("PIB:Carta 1 Venceu!(1)\n");
+else if(PIB<PIB2)
+printf("PIB:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
+break;
+case 4:
+printf("Cidade: %s\n", cidade);  
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
+printf("Cidade: %s\n", cidade2);  
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
+if(Pontos_Turisticos>Pontos_Turisticos2)
+printf("Pontos Turísticos:Carta 1 Venceu!(1)\n");
+else if(Pontos_Turisticos<Pontos_Turisticos2)
+printf("Pontos Turísticos:Carta 2 Venceu!(2)\n");
+else printf("Empate!\n");
+break;
+
 default:
 
 printf("Opcao Invalida\n");
